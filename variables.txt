@@ -1,0 +1,9 @@
+food = "pizza"
+is_delicious = true
+food = "hot dogs"
+num2 = 50
+num7 = 100
+quotient = num7 / num2
+songs = ["Yellow Brick Road", "National Anthem", "Rudolph the Red Nose Reindeer"]
+songs.shift
+food.length
