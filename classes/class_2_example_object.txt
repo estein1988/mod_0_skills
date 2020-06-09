@@ -1,0 +1,13 @@
+High Tops
+
+attributes:
+total_available = 11
+available_for_seating = false
+linens_status: "dirty"
+surface_type: "hardwood"
+
+methods:
+set: available_for_seating = true
+remove: 11 - 1 = 10
+clean_linens: linens_status = "clean"
+change_surface: surface_type = "composite"
