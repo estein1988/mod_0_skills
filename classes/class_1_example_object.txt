@@ -1,0 +1,14 @@
+Pasta
+
+attributes:
+temperature: 98
+have_eaten: false
+on_plate: true
+color: "yellow"
+
+
+methods:
+eat: on_plate = false
+cook: 98 + 6 = 104
+finish: have_eaten = true
+burn: color = "brown"
