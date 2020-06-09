@@ -1,0 +1,14 @@
+class = Food
+
+attributes:
+temperature (integer)
+have_eaten (boolean)
+on_plate (boolean)
+color (string)
+
+
+methods:
+eat (on_plate = false)
+cook (temperature + 1)
+finish (have_eaten = true)
+burn (change color)
