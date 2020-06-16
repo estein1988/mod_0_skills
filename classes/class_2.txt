@@ -1,13 +1,13 @@
 Table
 
 attributes:
-total_available (integer)
+max_occupancy (integer)
 available_for_seating (boolean)
 linens_status (string)
 surface_type (string)
 
 methods:
 set (change available_for_seating)
-remove (total_available - 1)
+remove_seat (max_occupancy - 1)
 clean_linens (changes linen_status)
 change_surface (changes surface_type)
